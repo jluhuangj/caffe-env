@@ -5,15 +5,18 @@
 
 #### 1.使用方法
 ```
-git clone <>
+git clone https://github.com/jluhuangj/caffe-env.git
 cd caffe-env
+
+# 设置所需库
 wget <url>
-cd third
 tar -xzvf caffe-hj-env.tar.gz
-cd ../code
-git clone <caffe-url>
+
+# 下载caffe源码
+git clone https://github.com/BVLC/caffe.git
 cp Makefile.config caffe/
 cd caffe
+# 根据路径自定义Makefile.config
 make
 ```
 
