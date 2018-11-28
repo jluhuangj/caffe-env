@@ -13,6 +13,7 @@ wget <url>
 tar -xzvf caffe-hj-env.tar.gz
 
 # 下载caffe源码
+mkdir caffe && cd caffe
 git clone https://github.com/BVLC/caffe.git
 cp Makefile.config caffe/
 cd caffe
