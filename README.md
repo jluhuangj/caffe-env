@@ -3,10 +3,14 @@
 - system: Ubuntu16.04
 - gcc version: 5.4.0
 
+只需自行安装cuda和cudnn
+
 #### 1.使用方法
 ```
 git clone https://github.com/jluhuangj/caffe-env.git
 cd caffe-env
+vim set_caffe_env.sh #设置cuda和cudnn路径
+source set_caffe_env.sh
 
 # 设置所需库
 wget <url>
