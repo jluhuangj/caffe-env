@@ -17,6 +17,7 @@ git clone https://github.com/BVLC/caffe.git
 cp Makefile.config caffe/
 cd caffe
 # 根据路径自定义Makefile.config
+vim Makefile.config
 make
 ```
 
