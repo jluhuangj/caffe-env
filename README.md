@@ -5,18 +5,24 @@
 
 只需自行安装cuda和cudnn
 
-#### 1.使用方法
+### 1.使用方法
+#### 1.1下载环境
 ```
 git clone https://github.com/jluhuangj/caffe-env.git
 cd caffe-env
-vim set_caffe_env.sh #设置cuda和cudnn路径
-source set_caffe_env.sh
-
-# 设置所需库
-wget <url>
+```
+#### 1.2配置第三方库
+```
+wget https://pan.baidu.com/s/1XnWL9Zk1pWXIoBq_6-t0Bw
 tar -xzvf caffe-hj-env.tar.gz
-
-# 下载caffe源码
+```
+#### 1.3设置cuda和cudnn路径
+```
+vim set_caffe_env.sh #改成本机的cuda和cudnn路径
+source set_caffe_env.sh  #启动环境
+```
+### 2.下载caffe源码
+```
 mkdir caffe && cd caffe
 git clone https://github.com/BVLC/caffe.git
 cp Makefile.config caffe/
@@ -26,7 +32,7 @@ vim Makefile.config
 make
 ```
 
-#### 2.库版本
+### PS: 库版本
 - mkl: 2018.0.128
 - LMDB: 0.9.18
 - opencv: 3.4.0
