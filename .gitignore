@@ -1,3 +1,4 @@
 third/*
 /caffe/*
 !/caffe/Makefile.config
+pack-install

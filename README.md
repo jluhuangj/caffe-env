@@ -12,8 +12,8 @@ git clone https://github.com/jluhuangj/caffe-env.git
 cd caffe-env
 ```
 #### 1.2配置第三方库
+在[caffe-third](https://pan.baidu.com/s/1XnWL9Zk1pWXIoBq_6-t0Bw)里下载第三方库，放在当前目录下。
 ```
-wget https://pan.baidu.com/s/1XnWL9Zk1pWXIoBq_6-t0Bw
 tar -xzvf caffe-hj-env.tar.gz
 ```
 #### 1.3设置cuda和cudnn路径
